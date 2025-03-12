@@ -1,0 +1,121 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url(login.jpg);
+    background-size: cover;
+}
+#hdiv1{
+    height: 100px;
+    width: auto;
+    background-color: rgba(255, 255, 255,0.4);
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+}
+#hlogo{
+    background-image: url(logo.png);
+    background-size: cover;
+    height: 90px;
+    width: 90px;
+    margin-left: -80px;
+    margin-top: 30px;
+}
+#navlist{
+    font-size: 20px;
+    width: 1000px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#navlist a{
+    text-decoration: none;
+    color: black;
+}
+#navlist a:hover{
+    font-size: 24px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+
+/* Form Container */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 50px;
+}
+
+/* Form Box */
+.form-box1 {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    height: 420px;
+}
+
+.form-box {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 300px;
+}
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Form Inputs */
+label {
+    display: block;
+    font-weight: bold;
+    margin: 10px 0 5px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* Buttons */
+.btn {
+    width: 100%;
+    padding: 10px;
+    background: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn:hover {
+    background: #0056b3;
+}
+
+/* Links */
+.forgot-password, .login-link {
+    text-align: center;
+    margin: 10px 0;
+    color: black;
+}
+
+.forgot-password a, .login-link a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+.forgot-password span, .login-link span {
+    font-weight: bold;
+}
